@@ -56,7 +56,7 @@ DeviseTokenAuth.setup do |config|
   # By default DeviseTokenAuth will not send confirmation email, even when including
   # devise confirmable module. If you want to use devise confirmable module and
   # send email, set it to true. (This is a setting for compatibility)
-  config.send_confirmation_email = True
+  config.send_confirmation_email = true
 
   # By default this value is expected to be sent by the client so that the API knows where to redirect 
   #users after successful email confirmation. If this param is set, the API will redirect to this 

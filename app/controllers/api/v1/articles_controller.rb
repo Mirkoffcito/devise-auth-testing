@@ -16,7 +16,7 @@ class Api::V1::ArticlesController < ApplicationController
 
   # POST /articles
   def create
-    @article = current_user.articles.new(article_params)
+    @article = current_api_user.articles.new(article_params)
 
     if @article.save
       render json: @article, status: :created, location: api_article_url(@article)

@@ -113,7 +113,7 @@ Rails.application.configure do
 
   #Email
   config.action_mailer.default_url_options = {
-    host: 'http://devise-auth-test.herokuapp.com'
+    host: 'http://devise-auth-testing.herokuapp.com'
   }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
